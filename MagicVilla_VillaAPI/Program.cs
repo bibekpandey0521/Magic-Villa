@@ -16,7 +16,7 @@ if (app.Environment.IsDevelopment())
 
     app.UseSwagger();
     //app.MapOpenApi();
-    app.UseSwagger();
+    app.UseSwaggerUI();
     //app.UseSwaggerUI(options =>
     //{
     //    options.SwaggerEndpoint("/openapi/v1.json", "VillaAPI");
